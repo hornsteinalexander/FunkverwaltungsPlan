@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Funk-Monitor</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Funk-Monitor</string>
+    <string name="dashboard_subtitle">Live-Status &amp; automatischer Zeitplan für deine Funkmodule.</string>
+    <string name="lang_toggle_de">DE</string>
+    <string name="lang_toggle_en">EN</string>
+
+    <!-- Root-Status -->
+    <string name="root_detected_title">Root erkannt</string>
+    <string name="root_not_detected_title">Kein Root erkannt</string>
+    <string name="root_detected_body">Automatisches Schalten laut Zeitplan ist aktiv. Beim ersten Auslösen bestätigst du die su-Anfrage einmalig in deiner Root-Manager-App (z. B. Magisk).</string>
+    <string name="root_not_detected_body">Diese App funktioniert auch ohne Root, kann Funkmodule dann aber nicht automatisch schalten – nur erinnern und die Einstellungen öffnen.</string>
+
+    <!-- Live-Status -->
+    <string name="live_status_heading">Live-Status</string>
+    <string name="status_loading">Wird geladen …</string>
+    <string name="open_settings_link">Einstellungen öffnen →</string>
+
+    <string name="band_wlan">WLAN</string>
+    <string name="band_bluetooth">Bluetooth</string>
+    <string name="band_mobilfunk">Mobilfunk (Daten)</string>
+    <string name="band_standort">Standort / GPS</string>
+
+    <string name="wifi_off">Ausgeschaltet</string>
+    <string name="wifi_on_no_perm">Aktiv (Signalstärke benötigt Standort-Berechtigung)</string>
+    <string name="wifi_signal">Signal: %1$d%% (%2$d dBm)</string>
+    <string name="bt_permission_missing">Berechtigung fehlt</string>
+    <string name="bt_on">Eingeschaltet</string>
+    <string name="bt_off">Ausgeschaltet</string>
+    <string name="mobile_permission_missing">Berechtigung fehlt</string>
+    <string name="mobile_data_on">Mobile Daten an</string>
+    <string name="mobile_data_off">Mobile Daten aus</string>
+    <string name="mobile_signal_suffix"> · Signal: %1$d%%</string>
+    <string name="location_on">Aktiv</string>
+    <string name="location_off">Ausgeschaltet</string>
+
+    <!-- Zeitplan -->
+    <string name="schedule_heading">Zeitplan (automatisches An-/Ausschalten)</string>
+    <string name="schedule_no_root_hint">Ohne Root wird nur erinnert und die passende Einstellungsseite geöffnet – echtes automatisches Schalten erfordert Root.</string>
+    <string name="schedule_preset_button">Standard für alle: 20:00–08:30 täglich</string>
+    <string name="schedule_from_off">Von (Aus)</string>
+    <string name="schedule_to_on">Bis (An)</string>
+
+    <string name="day_mon">Mo</string>
+    <string name="day_tue">Di</string>
+    <string name="day_wed">Mi</string>
+    <string name="day_thu">Do</string>
+    <string name="day_fri">Fr</string>
+    <string name="day_sat">Sa</string>
+    <string name="day_sun">So</string>
+
+    <!-- Benachrichtigungen (ScheduleReceiver) -->
+    <string name="notif_channel_name">Zeitplan-Ausführung</string>
+    <string name="notif_title">Funk-Monitor Zeitplan</string>
+    <string name="notif_action_off">ausgeschaltet</string>
+    <string name="notif_action_on">eingeschaltet</string>
+    <string name="notif_success">%1$s wurde automatisch %2$s.</string>
+    <string name="notif_failure">%1$s konnte nicht automatisch %2$s werden (kein Root-Zugriff verfügbar).</string>
+</resources>

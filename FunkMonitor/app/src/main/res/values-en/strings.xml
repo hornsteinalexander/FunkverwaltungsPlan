@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Funk-Monitor</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Funk-Monitor</string>
+    <string name="dashboard_subtitle">Live status &amp; automatic schedule for your radios.</string>
+    <string name="lang_toggle_de">DE</string>
+    <string name="lang_toggle_en">EN</string>
+
+    <!-- Root status -->
+    <string name="root_detected_title">Root detected</string>
+    <string name="root_not_detected_title">No root detected</string>
+    <string name="root_detected_body">Automatic switching per schedule is active. On first trigger you\'ll confirm the su request once in your root manager app (e.g. Magisk).</string>
+    <string name="root_not_detected_body">This app also works without root, but can\'t switch radios automatically then – only remind you and open the relevant settings screen.</string>
+
+    <!-- Live status -->
+    <string name="live_status_heading">Live status</string>
+    <string name="status_loading">Loading …</string>
+    <string name="open_settings_link">Open settings →</string>
+
+    <string name="band_wlan">Wi-Fi</string>
+    <string name="band_bluetooth">Bluetooth</string>
+    <string name="band_mobilfunk">Mobile data</string>
+    <string name="band_standort">Location / GPS</string>
+
+    <string name="wifi_off">Off</string>
+    <string name="wifi_on_no_perm">On (signal strength needs location permission)</string>
+    <string name="wifi_signal">Signal: %1$d%% (%2$d dBm)</string>
+    <string name="bt_permission_missing">Permission missing</string>
+    <string name="bt_on">On</string>
+    <string name="bt_off">Off</string>
+    <string name="mobile_permission_missing">Permission missing</string>
+    <string name="mobile_data_on">Mobile data on</string>
+    <string name="mobile_data_off">Mobile data off</string>
+    <string name="mobile_signal_suffix"> · Signal: %1$d%%</string>
+    <string name="location_on">On</string>
+    <string name="location_off">Off</string>
+
+    <!-- Schedule -->
+    <string name="schedule_heading">Schedule (automatic on/off)</string>
+    <string name="schedule_no_root_hint">Without root you only get a reminder and a shortcut to the settings screen – true automatic switching requires root.</string>
+    <string name="schedule_preset_button">Default for all: 8:00 PM–8:30 AM daily</string>
+    <string name="schedule_from_off">From (Off)</string>
+    <string name="schedule_to_on">Until (On)</string>
+
+    <string name="day_mon">Mon</string>
+    <string name="day_tue">Tue</string>
+    <string name="day_wed">Wed</string>
+    <string name="day_thu">Thu</string>
+    <string name="day_fri">Fri</string>
+    <string name="day_sat">Sat</string>
+    <string name="day_sun">Sun</string>
+
+    <!-- Notifications (ScheduleReceiver) -->
+    <string name="notif_channel_name">Schedule execution</string>
+    <string name="notif_title">Funk-Monitor Schedule</string>
+    <string name="notif_action_off">turned off</string>
+    <string name="notif_action_on">turned on</string>
+    <string name="notif_success">%1$s was automatically %2$s.</string>
+    <string name="notif_failure">%1$s could not be automatically %2$s (no root access available).</string>
+</resources>

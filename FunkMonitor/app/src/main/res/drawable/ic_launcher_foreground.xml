@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sendepunkt -->
+    <path
+        android:pathData="M49,76 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFB300" />
+
+    <!-- Innerer Bogen (stark, Amber) -->
+    <path
+        android:pathData="M41.88,69 A14,14 0 0,1 66.12,69"
+        android:strokeColor="#FFB300"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Mittlerer Bogen (Cyan-Akzent) -->
+    <path
+        android:pathData="M34.95,65 A22,22 0 0,1 73.05,65"
+        android:strokeColor="#4FD1C5"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Äußerer Bogen (verblassend, Amber gedimmt) -->
+    <path
+        android:pathData="M28.02,61 A30,30 0 0,1 79.98,61"
+        android:strokeColor="#7A5A10"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+</vector>
